@@ -33,5 +33,5 @@
 const path = require("path");
 const absolutePath = path.resolve( __dirname, "./" );
 
-Import (absolutePath + "/com.qcobjects.backend.microservice.openapi.json");
-Import (absolutePath + "/com.qcobjects.backend.microservice.openapi.yaml");
+Import (absolutePath + "/api/com.qcobjects.backend.microservice.openapi.json");
+Import (absolutePath + "/api/com.qcobjects.backend.microservice.openapi.yaml");
