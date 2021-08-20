@@ -33,7 +33,7 @@ npm i --save qcobjects-handler-openapi
 }
 ```
 
-3. Start the server
+3. Start the QCObjects HTTP2 Server
 
 ```shell
 qcobjects-server
