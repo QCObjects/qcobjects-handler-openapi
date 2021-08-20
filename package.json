@@ -1,0 +1,38 @@
+{
+  "name": "qcobjects-handler-openapi",
+  "version": "0.0.1",
+  "description": "QCObjects Handler for Open API",
+  "main": "index.js",
+  "scripts": {
+    "sync": "git add . && git commit -am ",
+    "test": "(npx eslint *.js api/**/*.js --fix) && (npx jasmine)",
+    "preversion": "npm cache verify && npm test",
+    "postversion": "git push && git push --tags",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QCObjects/qcobjects-handler-openapi.git"
+  },
+  "keywords": [
+    "qcobjects",
+    "newapp",
+    "qcobjects-handler",
+    "js",
+    "javascript"
+  ],
+  "author": "Jean Machuca (correojean@gmail.com)",
+  "license": "LGPL-3.0-or-later",
+  "devDependencies": {
+    "eslint": ">= 7",
+    "eslint-config-qcobjects": "0.0.11",
+    "qcobjects": "latest",
+    "qcobjects-cli": "latest",
+    "qcobjects-sdk": "latest"
+  },
+  "peerDependencies": {
+    "qcobjects": ">= 2.3",
+    "qcobjects-sdk": ">= 2.3",
+    "qcobjects-cli": ">= 2.3"
+  }
+}
