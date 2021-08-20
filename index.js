@@ -30,5 +30,8 @@
 /*eslint no-undef: "off"*/
 /*eslint no-useless-escape: "off"*/
 "use strict";
-require("api/com.qcobjects.backend.microservice.openapi.json");
-require("api/com.qcobjects.backend.microservice.openapi.yaml");
+const path = require("path");
+const absolutePath = path.resolve( __dirname, "./" );
+
+Import (absolutePath + "/com.qcobjects.backend.microservice.openapi.json");
+Import (absolutePath + "/com.qcobjects.backend.microservice.openapi.yaml");
