@@ -1,4 +1,4 @@
-# QCObjects Handler Open API
+# QCObjects Handler for Open API
 
 QCObjects Handler for Open API requests. This handler will allow you to make a
 dynamic url like https://example.com/openapi.json
