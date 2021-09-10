@@ -32,6 +32,5 @@
 "use strict";
 const path = require("path");
 const absolutePath = path.resolve( __dirname, "./" );
-
 Import (absolutePath + "/api/com.qcobjects.backend.microservice.openapi.json");
-Package("qcobjects-handler-openapi",Package ("com.qcobjects.backend.microservice.openapi.json"));
+Package("qcobjects-handler-openapi/json",Package ("com.qcobjects.backend.microservice.openapi.json"));
