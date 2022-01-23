@@ -36,4 +36,8 @@
     Import (absolutePath + "/api/backendroutes");
     Import (absolutePath + "/api/com.qcobjects.backend.microservice.openapi.json");
     Package("qcobjects-handler-openapi",Package ("com.qcobjects.backend.microservice.openapi.json"));
+    Package("qcobjects-handler-openapi/json",Package ("com.qcobjects.backend.microservice.openapi.json"));
+    Package("qcobjects-handler-openapi/yaml",Package ("com.qcobjects.backend.microservice.openapi.yaml"));
+    Package("qcobjects-handler-openapi/api/com.qcobjects.backend.microservice.openapi.json",Package ("com.qcobjects.backend.microservice.openapi.json"));
+    Package("qcobjects-handler-openapi/api/com.qcobjects.backend.microservice.openapi.yaml",Package ("com.qcobjects.backend.microservice.openapi.yaml"));
 })();

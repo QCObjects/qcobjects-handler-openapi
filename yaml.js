@@ -30,7 +30,9 @@
 /*eslint no-undef: "off"*/
 /*eslint no-useless-escape: "off"*/
 "use strict";
-const path = require("path");
-const absolutePath = path.resolve( __dirname, "./" );
-Import (absolutePath + "/api/com.qcobjects.backend.microservice.openapi.yaml");
-Package("qcobjects-handler-openapi/yaml",Package ("com.qcobjects.backend.microservice.openapi.yaml"));
+(function (){
+    const path = require("path");
+    const absolutePath = path.resolve( __dirname, "./" );
+    Import (absolutePath + "/api/com.qcobjects.backend.microservice.openapi.yaml");
+    Package("qcobjects-handler-openapi/yaml",Package ("com.qcobjects.backend.microservice.openapi.yaml"));
+})();
