@@ -11,13 +11,13 @@
         "name": "OpenAPI3.JSON",
         "description": "Open API v3 JSON",
         "path": "^/openapi.json$",
-        "microservice": "qcobjects-handler-openapi/api/com.qcobjects.backend.microservice.openapi.json"
+        "microservice": "qcobjects-handler-openapi/json"
       },
       {
         "name": "OpenAPI3.YAML",
         "description": "Open API v3 YAML",
         "path": "^/openapi.yaml$",
-        "microservice": "qcobjects-handler-openapi/api/com.qcobjects.backend.microservice.openapi.yaml"
+        "microservice": "qcobjects-handler-openapi/yaml"
       }]);
       CONFIG.set("backend", backend);
       loadOpenAPIRoutes.loaded = true;
