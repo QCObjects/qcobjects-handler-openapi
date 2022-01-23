@@ -1,6 +1,6 @@
 {
   "name": "qcobjects-handler-openapi",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "QCObjects Handler for Open API",
   "main": "index.js",
   "scripts": {
